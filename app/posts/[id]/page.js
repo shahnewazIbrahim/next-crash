@@ -34,7 +34,7 @@ export default async function PostPage({params}) {
 
             <hr/>
 
-            <Suspense fallback="<h1>Loading comments...</h1>">
+            <Suspense fallback="Loading comments...">
                 <Comments promise={commentsPromise}/>
             </Suspense>
             
